@@ -130,7 +130,7 @@ terraform destroy
 ```
 01_Infrastructure-as-Code/
 ├── main.tf              # Main configuration file
-├── terraformm.tf        # Provider requirements and versions
+├── terraform.tf        # Provider requirements and versions
 ├── terraform.tfstate    # State file (auto-generated)
 ├── .terraform/          # Provider plugins (auto-generated)
 │   └── providers/
@@ -139,7 +139,7 @@ terraform destroy
 
 ## 🔧 Configuration Details
 
-### Provider Configuration (`terraformm.tf`)
+### Provider Configuration (`terraform.tf`)
 
 ```hcl
 terraform {
